@@ -22,6 +22,8 @@ Build your About Me page in HTML & CSS. It should have 3 sections
 - Social media links
 - Footer
 
+Click on [this link](https://classroom.github.com/assignment-invitations/7d321e2f369f33c889bc6d3daff1ad44) to start your assignment on Github Classroom.
+
 ## Further Reading
 - [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/)
 - [Advanced HTML & CSS](http://learn.shayhowe.com/advanced-html-css/)
