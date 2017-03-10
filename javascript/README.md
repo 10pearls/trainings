@@ -8,6 +8,7 @@ Guide to learning Javascript Fundamentals
 1. [Data types](#data-types)
 1. [Loops](#loops)
 1. [Understanding this](#understanding-this)
+1. [ES2015](#es2015)
 
 ## Introduction
 JavaScript is a programming language that adds interactivity to your website (for example: games, responses when buttons are pressed  or data entered in forms, dynamic styling, animation). This article helps you get started with this exciting language and gives you an idea of what is possible. For a thorough introduction visit [JavaScript basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics) page on [Mozilla Developer Network](https://developer.mozilla.org/en-US/).
@@ -30,3 +31,6 @@ Like all languages, Javascript has standard loops for iterating over Arrays and 
 
 ## Understanding this
 The `this` keyword in Javascript has been a point of interest for most developers since it behaves differently when compared to other languages. Go through the [this](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/this) article on [Mozilla Developer Network](https://developer.mozilla.org/en-US/) to master the concept of `this` in Javascript.
+
+## ES2015
+ES2015 or ES6 is the recent major update to ECMAScript commonly known as Javascript. [Babel](http://babeljs.io/), a very famous transpiler for Javascript has a comprehensive and interactive guide to ES2015 features. Let's learn ES2015 with [Babel](http://babeljs.io) by visiting their [Learn ES2015](http://babeljs.io/learn-es2015/) guide.
