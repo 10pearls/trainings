@@ -1,7 +1,21 @@
 
-# Self Learning Program:
+# ASP.Net Web API:
 
-## 1. Getting Started
+Guide to ASP.Net Web API Fundamentals
+
+## Table of Contents
+
+1. [Getting Started](#getting-started)
+1. [Routing](#routing)
+1. [Working with Data](#working-with-data)
+1. [Serialization and Model binding](#serialization-and-model-binding)
+1. [Error Handling](#error-handling)
+1. [Security](#security)
+1. [Async and Sync API](#async-and-sync-api)
+1. [Dependency Injection](#dependency-injection)
+
+
+## Getting Started
 
 ### Introduction to Web API - Rest api concepts
 ASP. NET Web API is a framework that makes it easy to build HTTP services that reach a broad range of clients, including browsers and mobile devices. ASP. NET Web API is an ideal platform for building RESTful applications on the .NET Framework. More about [Web API].
@@ -16,17 +30,17 @@ HTTP response status codes indicate whether a specific HTTP request has been suc
 HTTP defines a set of request methods to indicate the desired action to be performed for a given resource. Although they can also be nouns, these request methods are sometimes referred as HTTP verbs. Each of them implements a different semantic, but some common features are shared by a group of them: e.g. a request method can be safe, idempotent, or cacheable.
 More details about [Http Request Methods].
 
-## 2. Routing
+## Routing
 Routing is how Web API matches a URI to an action. If you are familiar with ASP. NET MVC, Web API routing is very similar to MVC routing. The main difference is that Web API uses the HTTP method, not the URI path, to select the action.
 
 Go to [Routing] to read more about it.
 
 ### Attribute Routing
  Web API 2 supports a new type of routing, called attribute routing. As the name implies, attribute routing uses attributes to define routes.
- 
+
 Read more about [Attribute Routing] here.
 
-## 3. Working with data
+## Working with data
 Entity Framework (EF) is an object-relational mapper that enables .NET developers to work with relational data using domain-specific objects. It eliminates the need for most of the data-access code that developers usually need to write.
 
 [Entity Framework Db first]
@@ -38,9 +52,9 @@ Entity Framework (EF) is an object-relational mapper that enables .NET developer
 [More info on EF approaches]
 
 ### DTO
-A DTO is an object that defines how the data will be sent over the network. Read more about [DTO]. 
+A DTO is an object that defines how the data will be sent over the network. Read more about [DTO].
 
-## 4. Serialization and Model Binding
+## Serialization and Model Binding
 
 ### JSON and XML Serialization in Web API
 Web API provides media-type formatters for both JSON and XML. Go to [JSON and XML Serialization in ASP.NET Web API] for details.
@@ -51,7 +65,7 @@ A media type, also called a MIME type, identifies the format of a piece of data.
 ### Model Validations and Annotations
 When a client sends data to your web API, often you want to validate the data before doing any processing. This article shows how to annotate your models, use the annotations for data validation, and handle validation errors in your web API. Read more about [Model Validations and Annotations].
 
-## 5. Error Handling
+## Error Handling
 
 ### Exception Handling
 Error that occur at runtime are called as Exceptions. Exception handling should be done to handle such errors. You should have a good idea of how you can handle exceptions in Web API and send out appropriate error codes and error messages from your Web API controller methods.
@@ -72,15 +86,15 @@ Logging could be very beneficial and helps us in a lot of ways such as debugging
 
 [Custom Logging]
 
-## 6. Security
+## Security
 Security in itself is very complicated and tricky topic. When we plan to create an enterprise level application, we especially want to take care of authentication and authorization. These are two techniques if used well makes our application secure, in our case makes our WebAPI more secure.
 
-### Authentication: 
+### Authentication:
 Authentication is all about the identity of an end user. It’s about validating the identity of a user who is accessing our system, that he is authenticated enough to use our resources or not. Does that end user have valid credentials to log in our system? Credentials can be in the form of a user name and password. We’ll use Basic Authentication technique to understand how we can achieve authentication in WebAPI.
 
 Basic authentication is a mechanism, where an end user gets authenticated through the service with the help of user name and password. An end user makes a request to the service for authentication with user name and password embedded in request header. Here are details about [Basic Authentication].
 
-### Authorization: 
+### Authorization:
 Authorization should be considered as a second step after authentication to achieve security. Authorization means what permissions the authenticated user has to access web resources. This could be achieved by setting roles and permissions for an end user who is authenticated. See [Authentication and Authorization].
 
 ### OAuth 2:
@@ -92,16 +106,16 @@ ASP. NET Identity is the latest membership and identity management framework pro
 ### Action Filters
 An action filter is an attribute. You can apply most action filters to either an individual controller action or an entire controller. [ActionFilters] are a great way to add extra functionality to your Web API service.
 
-## 7. Async and Sync API
+## Async and Sync API
 
 Async and performance are often a considered to go hand in hand because performance is bracketed with scaling. ASP. NET provides [async] actions starting with .NET 4.5.
 
-## 8. Dependency Injection
+## Dependency Injection
 In software engineering, dependency injection is a technique whereby one object supplies the dependencies of another object. A dependency is an object that can be used (a service). An injection is the passing of a dependency to a dependent object (a client) that would use it.
 
 ### Autofac
 
-[Autofac] is an open-source dependency injection (DI) or inversion of control (IoC) container developed on Google Code. 
+[Autofac] is an open-source dependency injection (DI) or inversion of control (IoC) container developed on Google Code.
 
 See details about [dependency injection] here.
 
@@ -113,10 +127,10 @@ Unity is a Microsoft Dependency Injection Framework or DI Container. It can be d
  [Http Response Handling]: <https://docs.microsoft.com/en-us/aspnet/web-api/overview/error-handling/exception-handling#httpresponserexception>
 
  [Http Error]: <https://docs.microsoft.com/en-us/aspnet/web-api/overview/error-handling/exception-handling#httperror>
- 
-[Exception Filter]: <https://www.codeproject.com/Articles/722349/Exception-Handling-in-ASP-NET-Web-API-Part> 
 
-[Custom Logging]: <http://arcware.net/logging-web-api-requests/> 
+[Exception Filter]: <https://www.codeproject.com/Articles/722349/Exception-Handling-in-ASP-NET-Web-API-Part>
+
+[Custom Logging]: <http://arcware.net/logging-web-api-requests/>
 
 [Log4Net]: <http://devthings.com.ua/implementing-logging-for-asp-net-web-api-with-log4net/>
 
