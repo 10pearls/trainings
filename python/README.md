@@ -57,7 +57,7 @@ I don't expect you to learn all the methods associated with each structure, howe
 
 ## Functions
 It's here that Python's magic starts. We can set default arguments for our functions, have lambda functions come into play. And yes multiple returns do exist.
-Refer below linkd for an in-depth view.
+Refer below links for an in-depth view.
 
   - [Functions][Functions]
   - [Repeating Events][RepeatingEvents]
@@ -83,7 +83,7 @@ There are exercises in classroom for this section.
 ## Python Holy Book - PEP 8
 Everything in Python follows a pre-defined guidelines and conventions know as **[PEP 8][pep8]**. It's essential that you refer to it moving forward.
 
-##Whats Next? (Optional)
+## Whats Next? (Optional)
 We have pretty much covered the basics of Python programming.
 
 Feeling brave enough? Lets **Tango with Django!!**
