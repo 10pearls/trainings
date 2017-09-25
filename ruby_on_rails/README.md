@@ -80,6 +80,9 @@ It is recommended that you obtain at least a basic understanding of Ruby before 
   - Tutorials Point - Ruby Tutorial: https://www.tutorialspoint.com/ruby/
   - Ruby Lang - Ruby in Twenty Minutes: https://www.ruby-lang.org/en/documentation/quickstart/
 
+And a tutorial/article related to Ruby on Rails best practices:
+  - [10 Ruby on Rails Best Practices](https://www.sitepoint.com/10-ruby-on-rails-best-practices-3/)
+
 ## List of Free Books
 #### Ruby:
   1. [A community-driven Ruby style guide](https://github.com/bbatsov/ruby-style-guide)
@@ -146,12 +149,6 @@ Reference: https://github.com/EbookFoundation/free-programming-books/blob/master
   1. [Lynda - Ruby on Rails Training and Tutorials](https://www.lynda.com/Ruby-on-Rails-training-tutorials/304-0.html)
   1. [Team Tree House - Rails Development](https://teamtreehouse.com/tracks/rails-development)
   1. [ONE MONTH RAILS](https://onemonth.com/courses/rails)
-
-#### Tutorials I Have Written:
-  - [10 Ruby on Rails Best Practices](https://www.sitepoint.com/10-ruby-on-rails-best-practices-3/)
-  - [Continuous Deployment of Rails with SemaphoreCI](https://www.sitepoint.com/continous-deployment-of-rails-with-semaphoreci/)
-  - [Deliver the Mail with Amazon SES and Rails](https://www.sitepoint.com/deliver-the-mail-with-amazon-ses-and-rails/)
-  - [Quick Tip: DRY Up Your Model Validations Tests](https://www.sitepoint.com/quick-tip-dry-up-your-model-validations-tests/)
 
 #### Tutorial Sites:
 You can get recipes to do a lot of the thing on tutorial sites, and even some pre-baked goodies. It's a good idea to keep an eye on them.
