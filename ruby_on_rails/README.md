@@ -4,24 +4,28 @@
 
 ## Table of Contents
 1. [Introduction](#introduction)
-1. [Installation Guide](#introduction-guide)
+1. [What is Ruby?](#what-is-ruby)
+1. [What is Rails?](#what-is-rails)
+1. [Ruby on Rails Introduction](#ruby-on-rails-introduction)
+1. [Philosophy](#philosophy)
+1. [Installation Guide](#installation-guide)
+1. [Official Guides](#official-guides)
+1. [Tutorials](#tutorials)
+1. [List of Free Books](#list-of-free-books)
+1. [Style Guides](#style-guides)
+1. [Additional Resources](#additional-resources)
 
-## Ruby on Rails Introduction
-Learning to build a modern web application is daunting. Ruby on Rails makes it much easier and more fun. It includes everything you need to build fantastic applications, and you can learn it with the support of our large, friendly community.
 
-You’ve probably already used many of the applications that were built with Ruby on Rails: [Basecamp][basecamp], [GitHub][github], [Shopify][shopify], [Airbnb][airbnb], [Twitch][twitch], [SoundCloud][soundcloud], [Hulu][hulu], [Zendesk][zendesk], [Square][square], [Highrise][highrise], [Cookpad][cookpad]. Those are just some of the big names, but there are literally hundreds of thousands of applications built with the framework since its release in 2004.
-
-Optimizing for programmer happiness with Convention over Configuration is how we roll. Ruby on Rails has been popularizing both concepts along with a variety of other controversial points since the beginning. To learn more about why Rails is so different from many other web-application frameworks and paradigms, examine [The Rails Doctrine][TheRailsDoctrine].
-
-Reference: http://rubyonrails.org/
+## Introduction
+This is a training manual designed to put together all the resources required to learn Ruby on Rails at your own pace. The resources listed in this manual are according to my current best judgement, you can suggest anything you think I've missed which can be a good addition to this manual.
 
 ## What is Ruby?
 Before we ride on Rails, let us recapitulate a few points of Ruby, which is the base of Rails.
 
 Ruby is the successful combination of −
 
-  - Smalltalk's conceptual elegance,
-  - Python's ease of use and learning, and
+  - Smalltalk's conceptual elegance.
+  - Python's ease of use and learning.
   - Perl's pragmatism.
 
 Ruby is −
@@ -38,6 +42,15 @@ Rails is a web application development framework written in the Ruby language. I
 Rails is opinionated software. It makes the assumption that there is a "best" way to do things, and it's designed to encourage that way - and in some cases to discourage alternatives. If you learn "The Rails Way" you'll probably discover a tremendous increase in productivity. If you persist in bringing old habits from other languages to your Rails development, and trying to use patterns you learned elsewhere, you may have a less happy experience.
 
 Reference: http://guides.rubyonrails.org/getting_started.html
+
+## Ruby on Rails Introduction
+Learning to build a modern web application is daunting. Ruby on Rails makes it much easier and more fun. It includes everything you need to build fantastic applications, and you can learn it with the support of our large, friendly community.
+
+You’ve probably already used many of the applications that were built with Ruby on Rails: [Basecamp][basecamp], [GitHub][github], [Shopify][shopify], [Airbnb][airbnb], [Twitch][twitch], [SoundCloud][soundcloud], [Hulu][hulu], [Zendesk][zendesk], [Square][square], [Highrise][highrise], [Cookpad][cookpad]. Those are just some of the big names, but there are literally hundreds of thousands of applications built with the framework since its release in 2004.
+
+Optimizing for programmer happiness with Convention over Configuration is how we roll. Ruby on Rails has been popularizing both concepts along with a variety of other controversial points since the beginning. To learn more about why Rails is so different from many other web-application frameworks and paradigms, examine [The Rails Doctrine][TheRailsDoctrine].
+
+Reference: http://rubyonrails.org/
 
 ## Philosophy
 The Rails philosophy includes two major guiding principles:
@@ -63,9 +76,9 @@ Reference: http://guides.rubyonrails.org/getting_started.html
 
 ## Tutorials
 It is recommended that you obtain at least a basic understanding of Ruby before jumping into Rails, as it's based on Ruby, getting some familiarity with syntax will surely help.
+  - Official Rails Tutorial: http://guides.rubyonrails.org/getting_started.html
   - Tutorials Point - Ruby Tutorial: https://www.tutorialspoint.com/ruby/
   - Ruby Lang - Ruby in Twenty Minutes: https://www.ruby-lang.org/en/documentation/quickstart/
-  - Official Rails Tutorial (http://guides.rubyonrails.org/getting_started.html)
 
 ## List of Free Books
 #### Ruby:
@@ -141,6 +154,7 @@ Reference: https://github.com/EbookFoundation/free-programming-books/blob/master
   - [Quick Tip: DRY Up Your Model Validations Tests](https://www.sitepoint.com/quick-tip-dry-up-your-model-validations-tests/)
 
 #### Tutorial Sites
+You can get recipes to do a lot of the thing on tutorial sites, and even some pre-baked goodies. It's a good idea to keep an eye on them.
   - [SitePoint](https://www.sitepoint.com/ruby/)
   - [EnvatoTuts+](https://code.tutsplus.com/categories/ruby)
   - [Scotch](https://scotch.io/tutorials?q=&hits_per_page=33&page=0&dFR%5B_tags%5D%5B0%5D=ruby&fR%5Bauthor.verified%5D%5B0%5D=1&fR%5Bis_spam%5D%5B0%5D=0&fR%5Bstatus%5D%5B0%5D=published&hFR%5Bcategory%5D%5B0%5D=Tutorials&is_v=1)
