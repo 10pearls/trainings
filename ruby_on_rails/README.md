@@ -153,7 +153,7 @@ Reference: https://github.com/EbookFoundation/free-programming-books/blob/master
   - [Deliver the Mail with Amazon SES and Rails](https://www.sitepoint.com/deliver-the-mail-with-amazon-ses-and-rails/)
   - [Quick Tip: DRY Up Your Model Validations Tests](https://www.sitepoint.com/quick-tip-dry-up-your-model-validations-tests/)
 
-#### Tutorial Sites
+#### Tutorial Sites:
 You can get recipes to do a lot of the thing on tutorial sites, and even some pre-baked goodies. It's a good idea to keep an eye on them.
   - [SitePoint](https://www.sitepoint.com/ruby/)
   - [EnvatoTuts+](https://code.tutsplus.com/categories/ruby)
